@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/PC%20GAMING/Desktop/sentia_global/sentia-web/src/app/profile/page.tsx"],"sourcesContent":["export default function ProfilePage() {\r\n  return (\r\n    <div className=\"p-8\">\r\n      <h1 className=\"text-2xl\">Perfil</h1>\r\n      <p>Aquí podrás ver y editar tu información personal.</p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,2RAAC;QAAI,WAAU;;0BACb,2RAAC;gBAAG,WAAU;0BAAW;;;;;;0BACzB,2RAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
-}
