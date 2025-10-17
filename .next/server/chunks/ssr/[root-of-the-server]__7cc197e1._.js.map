@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/PC%20GAMING/Desktop/sentia_global/sentia-web/src/components/SupabaseProvider.tsx"],"sourcesContent":["\"use client\";\r\nimport React from \"react\";\r\nimport { createBrowserSupabaseClient } from \"@supabase/auth-helpers-nextjs\";\r\nimport { SessionContextProvider } from \"@supabase/auth-helpers-react\";\r\n\r\nexport default function SupabaseProvider({ children }: { children: React.ReactNode }) {\r\n  const [supabaseClient] = React.useState(() => createBrowserSupabaseClient());\r\n  return <SessionContextProvider supabaseClient={supabaseClient}>{children}</SessionContextProvider>;\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;AACA;AACA;AAHA;;;;;AAKe,SAAS,iBAAiB,EAAE,QAAQ,EAAiC;IAClF,MAAM,CAAC,eAAe,GAAG,6PAAK,CAAC,QAAQ,CAAC,IAAM,IAAA,oPAA2B;IACzE,qBAAO,2RAAC,8OAAsB;QAAC,gBAAgB;kBAAiB;;;;;;AAClE","debugId":null}},
+    {"offset": {"line": 86, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/PC%20GAMING/Desktop/sentia_global/sentia-web/src/components/Navbar.tsx"],"sourcesContent":["\"use client\";\r\n\r\nexport default function Navbar() {\r\n  return <div>Navbar prueba</div>;\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS;IACtB,qBAAO,2RAAC;kBAAI;;;;;;AACd","debugId":null}}]
+}
