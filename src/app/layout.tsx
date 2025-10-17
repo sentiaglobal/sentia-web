@@ -15,8 +15,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sentía Global",
-  description: "Generado por Sentía Global",
+  title: "Sentía — Productos y herramientas",
+  description: "Sentía — proyecto demo con Supabase, Stripe y Next.js",
+  openGraph: {
+    title: "Sentía — Productos y herramientas",
+    description: "Sentía — proyecto demo con Supabase, Stripe y Next.js",
+    url: "https://sentia.global",
+    siteName: "Sentía Global",
+    images: [
+      {
+        url: "https://sentia.global/og-image.png", // Pon aquí tu imagen pública
+        width: 1200,
+        height: 630,
+        alt: "Sentía Global",
+      },
+    ],
+    locale: "es_ES",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
