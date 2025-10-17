@@ -15,19 +15,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sentía — Productos y herramientas",
-  description: "Sentía — proyecto demo con Supabase, Stripe y Next.js",
+  title: "Sentia — Productos y herramientas",
+  description: "Sentia — proyecto demo con Supabase, Stripe y Next.js",
   openGraph: {
-    title: "Sentía — Productos y herramientas",
-    description: "Sentía — proyecto demo con Supabase, Stripe y Next.js",
+    title: "Sentia — Productos y herramientas",
+    description: "Sentia — proyecto demo con Supabase, Stripe y Next.js",
     url: "https://sentia.global",
-    siteName: "Sentía Global",
+    siteName: "Sentia Global",
     images: [
       {
         url: "https://sentia.global/og-image.png", // Pon aquí tu imagen pública
         width: 1200,
         height: 630,
-        alt: "Sentía Global",
+        alt: "Sentia Global",
       },
     ],
     locale: "es_ES",
