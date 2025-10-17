@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="p-4 flex justify-between bg-white shadow">
-      <Link href="/" className="font-bold">Sentía</Link>
+      <Link href="/" className="font-bold">Sentia</Link>
       <div className="flex gap-4 items-center">
         <Link href="/products">Productos</Link>
         <Link href="/dashboard">Dashboard</Link>
