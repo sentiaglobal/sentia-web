@@ -1,2 +1,4 @@
-node_modules
-.env.local
+.env*
+*.zip
+node_modules/
+dist/
