@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sentia — Productos y herramientas",
     description: "Sentia — proyecto demo con Supabase, Stripe y Next.js",
-    url: "https://sentia.global",
+    url: "https://www.sentia.global", // Asegúrate de usar www
     siteName: "Sentia Global",
     images: [
       {
-        url: "https://sentia.global/og-image.png", // Pon aquí tu imagen pública
+        url: "https://www.sentia.global/og-image.png", // Imagen pública correcta
         width: 1200,
         height: 630,
         alt: "Sentia Global",
@@ -32,6 +32,12 @@ export const metadata: Metadata = {
     ],
     locale: "es_ES",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sentia — Productos y herramientas",
+    description: "Sentia — proyecto demo con Supabase, Stripe y Next.js",
+    images: ["https://www.sentia.global/og-image.png"],
   },
 };
 
@@ -47,3 +53,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
