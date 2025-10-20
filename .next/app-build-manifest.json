@@ -1,3 +1,23 @@
 {
-  "pages": {}
+  "pages": {
+    "/page": [
+      "static/chunks/e927e_next_dist_01f459c7._.js",
+      "static/chunks/Desktop_sentia_global_src_app_favicon_ico_mjs_a1301c14._.js",
+      "static/chunks/[root-of-the-server]__aa9f0ba7._.css",
+      "static/chunks/e927e_@supabase_node-fetch_browser_c67cddd9.js",
+      "static/chunks/e927e_2e5d5e2b._.js",
+      "static/chunks/Desktop_sentia_global_df3946bb._.js",
+      "static/chunks/Desktop_sentia_global_src_app_layout_tsx_1922ec03._.js",
+      "static/chunks/e927e_next_dist_client_components_builtin_global-error_8a910eea.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_8c7439e1._.js",
+      "static/chunks/e927e_next_dist_compiled_react-dom_35cb87c9._.js",
+      "static/chunks/e927e_next_dist_compiled_next-devtools_index_7443233f.js",
+      "static/chunks/e927e_next_dist_compiled_d9a83bb6._.js",
+      "static/chunks/e927e_next_dist_client_dec1477e._.js",
+      "static/chunks/e927e_next_dist_b2398cec._.js",
+      "static/chunks/e927e_@swc_helpers_cjs_e73e3f21._.js",
+      "static/chunks/Desktop_sentia_global_a0ff3932._.js",
+      "static/chunks/turbopack-Desktop_sentia_global_caaa2740._.js"
+    ]
+  }
 }
